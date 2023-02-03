@@ -3,6 +3,7 @@ export const ADD_EMAIL = 'ADD_EMAIL';
 export const ADD_CURRENCY = 'ADD_CURRENCY';
 export const ADD_DESPESA = 'ADD_DESPESA';
 export const FETCH_CAMBIO = 'FETCH_CAMBIO';
+export const REMOVE_EXPENSE = 'REMOVE_EXPENSE';
 
 // ACTIONS CREATORS
 export const addEmail = (email) => ({
@@ -47,3 +48,8 @@ export const addExchangeRate = (pstate) => async (dispatch) => {
     console.log('Errei kkkkkkkkk');
   }
 };
+
+export const removeExpense = (id) => ({
+  type: REMOVE_EXPENSE,
+  id,
+});
