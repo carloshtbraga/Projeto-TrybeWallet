@@ -34,7 +34,7 @@ class Login extends React.Component {
     const { email } = this.props;
 
     return (
-      <form onSubmit={ this.handleSubmit }>
+      <form>
         <input
           type="email"
           onChange={ this.handleEmailChange }
