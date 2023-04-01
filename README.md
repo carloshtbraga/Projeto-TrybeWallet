@@ -1,4 +1,4 @@
-<h1 align='center'>Online Store</h1>
+<h1 align='center'>Trybe Wallet</h1>
  <p align="center">
   <a href="#sobre-o-projeto">Sobre o Projeto</a> •
   <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a> •
@@ -7,7 +7,7 @@
   <a href="#contato">Contato</a>
 </p>
 <h1 align='center'>
-  <img src='https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-svg-vector.svg' width="350" heigth="350"/>
+  <img src='https://github.com/carloshtbraga/Projeto-TrybeWallet/blob/main/src/pages/TrybeWallet.png?raw=true' width="450" heigth="350"/>
 </h1>
 <h1 align='center'>Sobre o projeto</h1>
 <p align='center'>Projeto que simula uma carteira de despesas, na qual a pessoa adiciona uma despesa em qualquer moeda e a cotação é feita automaticamente para incluir no acumulador de custos que é feito em real =)</p>
